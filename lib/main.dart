@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'movie_list.dart';
 
-void main() => runApp(MyMovies());
+void main() => runApp(MyApp());
 
-class MyMovies extends StatelessWidget {
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
